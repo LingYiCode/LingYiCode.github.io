@@ -6,6 +6,47 @@
         <description>Recent content in Tags on 千叶——AcMiner</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Chiba</copyright><atom:link href="https://qyChiba.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Chiba</copyright>
+        <lastBuildDate>Sat, 11 Oct 2025 11:06:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java</title>
+        <link>https://qyChiba.github.io/tags/java/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JDBC</title>
+        <link>https://qyChiba.github.io/tags/jdbc/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/jdbc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SQL</title>
+        <link>https://qyChiba.github.io/tags/sql/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/sql/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>异常处理</title>
+        <link>https://qyChiba.github.io/tags/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>资源管理</title>
+        <link>https://qyChiba.github.io/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>
