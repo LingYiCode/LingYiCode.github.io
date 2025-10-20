@@ -58,33 +58,19 @@
 &lt;/table&gt;
 &lt;p&gt;现在，请你帮助小蓝统计一下，在2000年1月1日到2024年4月13日这段时间内，小蓝有多少天是在练习篮球？&lt;/p&gt;
 &lt;h2 id="解题思路"&gt;&lt;code&gt;解题思路&lt;/code&gt;：
-&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
-&lt;/span&gt;&lt;span class="lnt"&gt; 2
-&lt;/span&gt;&lt;span class="lnt"&gt; 3
-&lt;/span&gt;&lt;span class="lnt"&gt; 4
-&lt;/span&gt;&lt;span class="lnt"&gt; 5
-&lt;/span&gt;&lt;span class="lnt"&gt; 6
-&lt;/span&gt;&lt;span class="lnt"&gt; 7
-&lt;/span&gt;&lt;span class="lnt"&gt; 8
-&lt;/span&gt;&lt;span class="lnt"&gt; 9
-&lt;/span&gt;&lt;span class="lnt"&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;这道题目主要意思是从2000年1月1日~2024年4月13日期间，把年月日转换成汉字后总笔画数&amp;gt;50就去练篮球。求共有多少个满足条件的日期。
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;思路：
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;涉及到日期题目就要联想到数组、遍历、润平年...
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;要定义一个值为每个月具体天数的数组；
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;题目中要把日期转换成汉字的话，那肯定要定义一个值为笔画数的汉字数组。
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;定义一个方法判断闰平年--&amp;gt;{闰年：(year%400==0)||(year %4==0&amp;amp;&amp;amp;year%100!=0)}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;定义两个变量，用于给汉字日期相加和满足条件的日期++。
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;三层循环(分别表示年月日)，再在循环里定义8个变量(用于取日期上每一个数字)。
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;然后就是在if判断转换后的汉字日期总笔画数是否&amp;gt;50，满足就++
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;最后就是加一个判断条件:当日期满足2024-4-13就输出并且return;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;blockquote&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;这道题目主要意思是从2000年1月1日~2024年4月13日期间，把年月日转换成汉字后总笔画数&amp;gt;50就去练篮球。求共有多少个满足条件的日期。
+思路：
+涉及到日期题目就要联想到数组、遍历、润平年&amp;hellip;
+要定义一个值为每个月具体天数的数组；
+题目中要把日期转换成汉字的话，那肯定要定义一个值为笔画数的汉字数组。
+定义一个方法判断闰平年&amp;ndash;&amp;gt;{闰年：(year%400==0)||(year %4==0&amp;amp;&amp;amp;year%100!=0)}
+定义两个变量，用于给汉字日期相加和满足条件的日期++。
+三层循环(分别表示年月日)，再在循环里定义8个变量(用于取日期上每一个数字)。
+然后就是在if判断转换后的汉字日期总笔画数是否&amp;gt;50，满足就++
+最后就是加一个判断条件:当日期满足2024-4-13就输出并且return;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;最后的if判断语句的结束语句为什么不用break;而是用return;？&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;因为break是结束当前循环(day的循环)，return是终止当前方法的执行。它是终止solve()整个方法.&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
