@@ -15,7 +15,18 @@
 <meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
+      Waline.pageviewCount({
+        serverURL: 'https://waline.vercel.app',
+        path: window.location.pathname,
+        update: true,
+      });
+    }
+  });
+</script>
 
 
     </head>

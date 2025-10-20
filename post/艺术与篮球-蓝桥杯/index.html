@@ -16,7 +16,18 @@
     <meta name="twitter:image" content='https://qyChiba.github.io/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
+      Waline.pageviewCount({
+        serverURL: 'https://waline.vercel.app',
+        path: window.location.pathname,
+        update: true,
+      });
+    }
+  });
+</script>
 
 
     </head>
@@ -303,7 +314,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         

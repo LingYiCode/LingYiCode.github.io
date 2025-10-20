@@ -15,7 +15,18 @@
 <meta name="twitter:description" content="用学历撬动平台、用平台积累经验、用经验兑现身价\n">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
+      Waline.pageviewCount({
+        serverURL: 'https://waline.vercel.app',
+        path: window.location.pathname,
+        update: true,
+      });
+    }
+  });
+</script>
 
 
     </head>

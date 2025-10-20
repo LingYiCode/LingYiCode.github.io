@@ -16,7 +16,18 @@
 <meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
+      Waline.pageviewCount({
+        serverURL: 'https://waline.vercel.app',
+        path: window.location.pathname,
+        update: true,
+      });
+    }
+  });
+</script>
 
 
     </head>
@@ -406,7 +417,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/%E8%89%BA%E6%9C%AF%E4%B8%8E%E7%AF%AE%E7%90%83-%E8%93%9D%E6%A1%A5%E6%9D%AF/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         
@@ -488,7 +501,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         
@@ -570,7 +585,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         
@@ -652,7 +669,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/jdbc%E8%BF%9B%E9%98%B6/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         
@@ -738,7 +757,9 @@
 
 
                 <span class="article-time--views">
-                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                    <span id="page_view_count">
+                        <span class="waline-pageview-count" data-path="/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/">-</span>
+                    </span> 次阅读
                 </span>
             </div>
         
