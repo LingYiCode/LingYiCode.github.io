@@ -22,7 +22,8 @@
 &lt;p&gt;4.选中lib文件夹右键&amp;ndash;&amp;gt;Add as Library(添加为库)，与项目集成。&lt;/p&gt;
 &lt;p&gt;5.编写代码&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;完整代码：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;完整代码：&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -118,7 +119,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;注册驱动是为了和数据库通信，加载驱动程序的目的是为了注册驱动程序，使得JDBC API能够识别并且与特定的数据库进行交互。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;注册驱动是为了和数据库通信，加载驱动程序的目的是为了注册驱动程序，使得JDBC API能够识别并且与特定的数据库进行交互。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;从JDK6开始就不需要写&lt;code&gt;Class forname()&lt;/code&gt;来加载JDBC驱动程序，只要在类路径中集成了对应的jar文件，会自动在初始化时注册驱动程序。&lt;/p&gt;
@@ -149,7 +151,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;注：&lt;/code&gt;如果你用的是自己的IP地址(localhost)和默认端口号(3306)那么这时候url就可以写：&lt;code&gt;com:mysql:///jdbcdemo&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;注：&lt;/code&gt;如果你用的是自己的IP地址(localhost)和默认端口号(3306)那么这时候url就可以写：&lt;code&gt;com:mysql:///jdbcdemo&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;Connection接口&lt;/code&gt;还负责管理事务，Connection接口提供了&lt;code&gt;commit&lt;/code&gt;和&lt;code&gt;rollback&lt;/code&gt;方法，用于提交事务和回滚事务。&lt;/p&gt;
@@ -267,7 +270,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;如果用sql注入的话就是输入：abc&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1，这时候&lt;code&gt;abc&#39; or &#39;1&#39;=&#39;1&lt;/code&gt;就会代替问号并且加上两边加上单引号：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;如果用sql注入的话就是输入：abc&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1，这时候&lt;code&gt;abc&#39; or &#39;1&#39;=&#39;1&lt;/code&gt;就会代替问号并且加上两边加上单引号：&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -277,7 +281,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;这是后看着虽然和用Statement时候注入的形式一样，但是PreparedStatement会在他们中间加上转义字符，使得他们变成普通的值：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这是后看着虽然和用Statement时候注入的形式一样，但是PreparedStatement会在他们中间加上转义字符，使得他们变成普通的值：&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -294,7 +299,8 @@
 &lt;li&gt;获取单列结果：可以通过getXxx的方法获取单列的数据，该方法为重载方法 ，支持索引和列名进行获取。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;专业术语&amp;ndash;ORM：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;专业术语&amp;ndash;ORM：&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;JDBC全流程：注册驱动&amp;mdash;&amp;gt;获取连接&amp;mdash;&amp;gt;预编译获取PreparedStatement对象&amp;mdash;&amp;gt;编写并执行sql语句&amp;mdash;&amp;gt;遍历结果集&amp;mdash;&amp;gt;资源释放&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;案例curd&#34;&gt;案例&amp;mdash;&amp;gt;CURD
 &lt;/h2&gt;&lt;h3 id=&#34;查询单行单列&#34;&gt;查询&amp;ndash;&amp;gt;单行单列：
@@ -712,11 +718,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;在执行sql返回结果的时候：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;在执行sql返回结果的时候：&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果是查询就用&lt;code&gt;executeQuery()&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;如果是查询就用&lt;code&gt;executeQuery()&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果是增删改就用&lt;code&gt;executeUpdate()&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;如果是增删改就用&lt;code&gt;executeUpdate()&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         

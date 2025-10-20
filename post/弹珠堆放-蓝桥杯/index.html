@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.e837e7c919afd1ce5a17674db6bc6738a61d564e3ba665804c69a61476818ca5.css"><meta property='og:title' content="弹珠堆放-蓝桥杯">
+<link rel="stylesheet" href="/scss/style.min.54aea3faf6d9a05288e05866f2d13eb16142890807575c16e462cfc62f22f24b.css"><meta property='og:title' content="弹珠堆放-蓝桥杯">
 <meta property='og:description' content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n">
 <meta property='og:url' content='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 <meta property='og:site_name' content='千叶——AcMiner'>
@@ -15,6 +15,9 @@
 <meta name="twitter:description" content="弹珠堆放 - 17142 题目： 小蓝有 20230610 颗磁力弹珠，他对金字塔形状尤其感兴趣，如图:\n高度为 1 的金字塔需要 1 颗弹珠 高度为 2 的金字塔需要 4 颗弹珠 高度为 3 的金字塔需要 10 颗弹珠 高度为 4 的金字塔需要 20 颗弹珠 小兰想知道用他手里的弹珠可以摆出的最高金字塔高度是多少？\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://qyChiba.github.io/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
+
+<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
     </head>
     <body class="
@@ -288,11 +291,28 @@
         
 
         
+
+        
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="12" r="2" />
+  <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" />
+</svg>
+
+
+                <span class="article-time--views">
+                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                </span>
+            </div>
+        
     </footer>
     
 
     
 </div>
+
 
 </header>
 
@@ -339,9 +359,11 @@
 <p>第二层 : 3</p>
 <p>那题目给的 4 就是 1+3 得来的，那么这两层之间的规律可以看出第一层需要弹珠的数量 (1) + 第二层的层数 (2) 就是第两层需要的弹珠数量。</p>
 <p>那么一个简单的公式：第 n 层需要的弹珠数量 + 第 n+1 的层数 = 第 n 层需要的弹珠数量。</p>
-<p>所以就得出要定义两个变量（高度和当前层的弹珠数量）一个常量（总数量）：</p></blockquote>
+<p>所以就得出要定义两个变量（高度和当前层的弹珠数量）一个常量（总数量）：</p>
+</blockquote>
 <blockquote>
-<p>规律如图：</p></blockquote>
+<p>规律如图：</p>
+</blockquote>
 <div class="table-wrapper"><table>
   <thead>
       <tr>
@@ -383,7 +405,8 @@
 </div>
 </div><blockquote>
 <p>”定义完变量和常亮后就要进行循环了，但是我们不知道循环多少次，也不知道什么时候结束，有一个口诀：``知道次数用 for，否则用 while<code>，所以就要用 </code>while`</p>
-<p>进入 <code>while</code> 循环后要先把当前层的弹珠减去，所以就是 <code>sum -= cnt;</code></p></blockquote>
+<p>进入 <code>while</code> 循环后要先把当前层的弹珠减去，所以就是 <code>sum -= cnt;</code></p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -397,7 +420,8 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>然后再把 <code>high++</code>，因为层级增加嘛，加完高度后就要想那个公式怎么用了，我们可以带入一个值，按照定义的初始值带进去就编程 <code>sum -= 1 --&gt; 19, high++ --&gt; 2</code>，现在下一个层级有了，上一层需要的弹珠数量有了，两者相加即可：<code>cnt += high;</code> 可以带入值 1（第一层需要的弹珠数量）和 2（第二层），1+2=3 是第二层需要的弹珠数量。</p></blockquote>
+<p>然后再把 <code>high++</code>，因为层级增加嘛，加完高度后就要想那个公式怎么用了，我们可以带入一个值，按照定义的初始值带进去就编程 <code>sum -= 1 --&gt; 19, high++ --&gt; 2</code>，现在下一个层级有了，上一层需要的弹珠数量有了，两者相加即可：<code>cnt += high;</code> 可以带入值 1（第一层需要的弹珠数量）和 2（第二层），1+2=3 是第二层需要的弹珠数量。</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -415,7 +439,8 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>现在都求完后就要输出了，但是输出不可能直接输出，如果直接在循环外写输出，那循环就压根不会到循环外的输出语句，</p></blockquote>
+<p>现在都求完后就要输出了，但是输出不可能直接输出，如果直接在循环外写输出，那循环就压根不会到循环外的输出语句，</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -439,7 +464,8 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>如果写循环里面可以输出，无论写在哪里都会报错，因为判断条件永远为真，最后会死循环一直执行</p></blockquote>
+<p>如果写循环里面可以输出，无论写在哪里都会报错，因为判断条件永远为真，最后会死循环一直执行</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -465,7 +491,8 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>所以还要给输出添加前置判断条件：假如总数量 = 0 的时候输出 high，但是这时候问题又出现了：假如最后 <code>sum - cnt</code> 成负数了就不输出了吗？显然不可能，我们还要再加一个判断条件：当 sum &lt; 0 的时候 high 就要 -1。</p></blockquote>
+<p>所以还要给输出添加前置判断条件：假如总数量 = 0 的时候输出 high，但是这时候问题又出现了：假如最后 <code>sum - cnt</code> 成负数了就不输出了吗？显然不可能，我们还要再加一个判断条件：当 sum &lt; 0 的时候 high 就要 -1。</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -497,7 +524,8 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>如果你觉得写到这里就 <code>结束</code> 了那就错了，如果写到这里可以运行试下：显然结果是死循环。</p></blockquote>
+<p>如果你觉得写到这里就 <code>结束</code> 了那就错了，如果写到这里可以运行试下：显然结果是死循环。</p>
+</blockquote>
 <p><img src="/post/%E5%BC%B9%E7%8F%A0%E5%A0%86%E6%94%BE-%E8%93%9D%E6%A1%A5%E6%9D%AF/CW.png"
 	width="1316"
 	height="958"
@@ -513,7 +541,8 @@
 	
 ></p>
 <blockquote>
-<p>因为他会一直执行 <code>high++;</code> 和 <code>cnt += high;</code>，所以我们还要给每一个判断加上 <code>break;</code> 结束语句，这样才算真正完成。</p></blockquote>
+<p>因为他会一直执行 <code>high++;</code> 和 <code>cnt += high;</code>，所以我们还要给每一个判断加上 <code>break;</code> 结束语句，这样才算真正完成。</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -561,7 +590,8 @@
 	
 ></p>
 <blockquote>
-<p>把这个程序写出来后那最后把 sum 的值改成题目要求的 20230610 就行了。</p></blockquote>
+<p>把这个程序写出来后那最后把 sum 的值改成题目要求的 20230610 就行了。</p>
+</blockquote>
 <h2 id="最终代码">最终代码：
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

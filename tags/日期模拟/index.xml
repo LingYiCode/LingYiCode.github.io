@@ -101,7 +101,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;最后的if判断语句的结束语句为什么不用break;而是用return;？&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;因为break是结束当前循环(day的循环)，return是终止当前方法的执行。它是终止solve()整个方法.&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;因为break是结束当前循环(day的循环)，return是终止当前方法的执行。它是终止solve()整个方法.&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;最终代码&#34;&gt;最终代码：
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -206,7 +207,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;也可以不用写solve()方法，直接在main写也行。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;也可以不用写solve()方法，直接在main写也行。&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         

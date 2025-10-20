@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/'>
 
-<link rel="stylesheet" href="/scss/style.min.e837e7c919afd1ce5a17674db6bc6738a61d564e3ba665804c69a61476818ca5.css"><meta property='og:title' content="JDBC进阶">
+<link rel="stylesheet" href="/scss/style.min.54aea3faf6d9a05288e05866f2d13eb16142890807575c16e462cfc62f22f24b.css"><meta property='og:title' content="JDBC进阶">
 <meta property='og:description' content="JDBC-进阶 1.实体类与ORM 在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。\n">
 <meta property='og:url' content='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/'>
 <meta property='og:site_name' content='千叶——AcMiner'>
@@ -15,6 +15,9 @@
 <meta name="twitter:description" content="JDBC-进阶 1.实体类与ORM 在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
+
+<script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
     </head>
     <body class="
@@ -286,11 +289,28 @@
         
 
         
+
+        
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="12" r="2" />
+  <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" />
+</svg>
+
+
+                <span class="article-time--views">
+                    <span id="busuanzi_value_page_pv">-</span> 次阅读
+                </span>
+            </div>
+        
     </footer>
     
 
     
 </div>
+
 
 </header>
 
@@ -300,11 +320,14 @@
     <h1 id="jdbc-进阶">JDBC-进阶
 </h1><h2 id="1实体类与orm">1.实体类与ORM
 </h2><blockquote>
-<p>在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。</p></blockquote>
+<p>在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。</p>
+</blockquote>
 <blockquote>
-<p>ORM(Object Relational Mapping)思想，<strong>对象到关系数据库的映射</strong>，作用是在编程中，把面向对象的概念跟数据库中表的概念对应起来，以面向对象的角度操作数据库中的数据，即<code>一张表对应一个类，一行数据对应一个对象，一个列对应一个属性</code></p></blockquote>
+<p>ORM(Object Relational Mapping)思想，<strong>对象到关系数据库的映射</strong>，作用是在编程中，把面向对象的概念跟数据库中表的概念对应起来，以面向对象的角度操作数据库中的数据，即<code>一张表对应一个类，一行数据对应一个对象，一个列对应一个属性</code></p>
+</blockquote>
 <blockquote>
-<p>JDBC的过程称为手动ORM。</p></blockquote>
+<p>JDBC的过程称为手动ORM。</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
