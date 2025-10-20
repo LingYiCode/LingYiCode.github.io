@@ -15,18 +15,23 @@
 <meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
-      Waline.pageviewCount({
-        serverURL: 'https://waline.vercel.app',
-        path: window.location.pathname,
-        update: true,
-      });
+  
+  window.addEventListener('DOMContentLoaded', function() {
+    var pageKey = 'pv_' + window.location.pathname;
+    var count = localStorage.getItem(pageKey) || 0;
+    count = parseInt(count) + 1;
+    localStorage.setItem(pageKey, count);
+    
+    var pvElement = document.getElementById('busuanzi_value_page_pv');
+    if (pvElement) {
+      
+      pvElement.textContent = count;
     }
   });
 </script>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
     </head>
@@ -215,9 +220,20 @@
             <div class="article-list--tile">
                 
                     
-<article class="">
+<article class="has-image">
     <a href="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/">
         
+        
+            <div class="article-image">
+                <img src="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/cover.72b246df6aeff773e540ddc84cd6d0b7_hu_e30bdddd065ee0a0.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 蓝桥杯"
+                        
+                        data-hash="md5-crJG32rv93PlQN3ITNbQtw==">
+                
+            </div>
         
 
         <div class="article-details">
@@ -228,9 +244,20 @@
 
                 
                     
-<article class="">
+<article class="has-image">
     <a href="/categories/jdbc/">
         
+        
+            <div class="article-image">
+                <img src="/categories/jdbc/cover.f07ea6f4f3b8b637c6d62aeeb2959516_hu_7c91041f51a41f51.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post JDBC"
+                        
+                        data-hash="md5-8H6m9PO4tjfG1iruspWVFg==">
+                
+            </div>
         
 
         <div class="article-details">

@@ -15,18 +15,23 @@
 <meta name="twitter:description" content="黎明之前最黑暗">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
-      Waline.pageviewCount({
-        serverURL: 'https://waline.vercel.app',
-        path: window.location.pathname,
-        update: true,
-      });
+  
+  window.addEventListener('DOMContentLoaded', function() {
+    var pageKey = 'pv_' + window.location.pathname;
+    var count = localStorage.getItem(pageKey) || 0;
+    count = parseInt(count) + 1;
+    localStorage.setItem(pageKey, count);
+    
+    var pvElement = document.getElementById('busuanzi_value_page_pv');
+    if (pvElement) {
+      
+      pvElement.textContent = count;
     }
   });
 </script>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
     </head>

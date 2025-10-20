@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="黎明之前最黑暗">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Java数据库连接技术详解">
 <title>Category: JDBC - 千叶——AcMiner</title>
 
 <link rel='canonical' href='https://qyChiba.github.io/categories/jdbc/'>
 
 <link rel="stylesheet" href="/scss/style.min.54aea3faf6d9a05288e05866f2d13eb16142890807575c16e462cfc62f22f24b.css"><meta property='og:title' content="Category: JDBC - 千叶——AcMiner">
-<meta property='og:description' content="黎明之前最黑暗">
+<meta property='og:description' content="Java数据库连接技术详解">
 <meta property='og:url' content='https://qyChiba.github.io/categories/jdbc/'>
 <meta property='og:site_name' content='千叶——AcMiner'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-11T11:06:00&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-11T11:06:00&#43;08:00 '/><meta property='og:image' content='https://qyChiba.github.io/categories/jdbc/cover.jpg' />
 <meta name="twitter:title" content="Category: JDBC - 千叶——AcMiner">
-<meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/categories/jdbc/index.xml">
+<meta name="twitter:description" content="Java数据库连接技术详解"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://qyChiba.github.io/categories/jdbc/cover.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/categories/jdbc/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
-      Waline.pageviewCount({
-        serverURL: 'https://waline.vercel.app',
-        path: window.location.pathname,
-        update: true,
-      });
+  
+  window.addEventListener('DOMContentLoaded', function() {
+    var pageKey = 'pv_' + window.location.pathname;
+    var count = localStorage.getItem(pageKey) || 0;
+    count = parseInt(count) + 1;
+    localStorage.setItem(pageKey, count);
+    
+    var pvElement = document.getElementById('busuanzi_value_page_pv');
+    if (pvElement) {
+      
+      pvElement.textContent = count;
     }
   });
 </script>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
     </head>
@@ -353,7 +359,17 @@
                 <h3 class="section-count">3 个页面</h3>
                 <h1 class="section-term">JDBC</h1>
                 
+                    <h2 class="section-description">Java数据库连接技术详解</h2>
+                
             </div>
+                <div class="section-image">
+                    <img src="/categories/jdbc/cover_hu_d60ce9791cb98501.jpg" 
+                            width="120"
+                            height="120" 
+                            loading="lazy">
+                    
+                </div>
+            
         </div>
     </header>
     

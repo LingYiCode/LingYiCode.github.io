@@ -15,18 +15,23 @@
 <meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/categories/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof Waline !== 'undefined' && Waline.pageviewCount) {
-      Waline.pageviewCount({
-        serverURL: 'https://waline.vercel.app',
-        path: window.location.pathname,
-        update: true,
-      });
+  
+  window.addEventListener('DOMContentLoaded', function() {
+    var pageKey = 'pv_' + window.location.pathname;
+    var count = localStorage.getItem(pageKey) || 0;
+    count = parseInt(count) + 1;
+    localStorage.setItem(pageKey, count);
+    
+    var pvElement = document.getElementById('busuanzi_value_page_pv');
+    if (pvElement) {
+      
+      pvElement.textContent = count;
     }
   });
 </script>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
     </head>
@@ -367,6 +372,15 @@
                 <time datetime='2025-09-01T23:00:26&#43;08:00'>2025-09-01</time>
             </footer>
         </div>
+            <div class="article-image">
+                <img src="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/cover_hu_50aa311f4d3ff7cf.jpg" 
+                        width="120"
+                        height="120" 
+                        alt="蓝桥杯"
+                        loading="lazy">
+                
+            </div>
+        
     </a>
 </article>
         
@@ -378,6 +392,15 @@
                 <time datetime='2025-08-25T15:29:50&#43;08:00'>2025-08-25</time>
             </footer>
         </div>
+            <div class="article-image">
+                <img src="/categories/jdbc/cover_hu_d60ce9791cb98501.jpg" 
+                        width="120"
+                        height="120" 
+                        alt="JDBC"
+                        loading="lazy">
+                
+            </div>
+        
     </a>
 </article>
         
