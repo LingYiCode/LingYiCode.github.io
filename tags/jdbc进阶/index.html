@@ -15,63 +15,6 @@
 <meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/tags/jdbc%E8%BF%9B%E9%98%B6/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-
-
-<script>
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    
-    const articles = document.querySelectorAll('.article-list article');
-    articles.forEach((article, index) => {
-      article.classList.add('fade-in-up');
-      
-      setTimeout(() => {
-        article.classList.add('visible');
-      }, index * 100);
-    });
-
-    
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, observerOptions);
-
-    
-    document.querySelectorAll('.fade-in-up').forEach(el => {
-      observer.observe(el);
-    });
-
-    
-    const widgets = document.querySelectorAll('.widget');
-    widgets.forEach((widget, index) => {
-      widget.style.animationDelay = `${index * 0.1}s`;
-    });
-  });
-
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const backToTop = document.querySelector('.back-to-top');
-    if (backToTop) {
-      if (scrollTop > 300) {
-        backToTop.style.opacity = '1';
-        backToTop.style.visibility = 'visible';
-      } else {
-        backToTop.style.opacity = '0';
-        backToTop.style.visibility = 'hidden';
-      }
-    }
-  });
-</script>
-
     </head>
     <body class="">
     <script>
@@ -350,30 +293,54 @@
     </div>
     <h2 class="widget-title section-title">标签云</h2>
 
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" class="font_size_1">
+    <div class="tagCloud-tags" data-tag-count="6">
+        <a href="/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="JDBC常见问题 (1 篇文章)">
                 JDBC常见问题
+                <span class="tag-count">(1)</span>
             </a>
-        
-            <a href="/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/" class="font_size_1">
+        <a href="/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="JDBC搭建和连接 (1 篇文章)">
                 JDBC搭建和连接
+                <span class="tag-count">(1)</span>
             </a>
-        
-            <a href="/tags/jdbc%E8%BF%9B%E9%98%B6/" class="font_size_1">
+        <a href="/tags/jdbc%E8%BF%9B%E9%98%B6/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="JDBC进阶 (1 篇文章)">
                 JDBC进阶
+                <span class="tag-count">(1)</span>
             </a>
-        
-            <a href="/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/" class="font_size_1">
+        <a href="/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="一维前缀和 (1 篇文章)">
                 一维前缀和
+                <span class="tag-count">(1)</span>
             </a>
-        
-            <a href="/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/" class="font_size_1">
+        <a href="/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="一维差分 (1 篇文章)">
                 一维差分
+                <span class="tag-count">(1)</span>
             </a>
-        
-            <a href="/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/" class="font_size_1">
+        <a href="/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/" 
+               class="tag-cloud-item" 
+               data-count="1"
+               style="font-size: 0.8em; opacity: 0.6;"
+               title="日期模拟 (1 篇文章)">
                 日期模拟
+                <span class="tag-count">(1)</span>
             </a>
         
     </div>
@@ -530,7 +497,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.99ce1801c4bad426a42fc436add4721e149159dbb598636e9578fd59cf778c83.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.4a664a6ab4b481396d4d5ae110d1d1fa64dbf3a75abdf18b6b53e9be90d33fce.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

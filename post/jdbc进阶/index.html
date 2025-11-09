@@ -16,63 +16,6 @@
     <meta name="twitter:image" content='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
-
-
-<script>
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    
-    const articles = document.querySelectorAll('.article-list article');
-    articles.forEach((article, index) => {
-      article.classList.add('fade-in-up');
-      
-      setTimeout(() => {
-        article.classList.add('visible');
-      }, index * 100);
-    });
-
-    
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, observerOptions);
-
-    
-    document.querySelectorAll('.fade-in-up').forEach(el => {
-      observer.observe(el);
-    });
-
-    
-    const widgets = document.querySelectorAll('.widget');
-    widgets.forEach((widget, index) => {
-      widget.style.animationDelay = `${index * 0.1}s`;
-    });
-  });
-
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const backToTop = document.querySelector('.back-to-top');
-    if (backToTop) {
-      if (scrollTop > 300) {
-        backToTop.style.opacity = '1';
-        backToTop.style.visibility = 'visible';
-      } else {
-        backToTop.style.opacity = '0';
-        backToTop.style.visibility = 'hidden';
-      }
-    }
-  });
-</script>
-
     </head>
     <body class="
     article-page
@@ -852,7 +795,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.99ce1801c4bad426a42fc436add4721e149159dbb598636e9578fd59cf778c83.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.4a664a6ab4b481396d4d5ae110d1d1fa64dbf3a75abdf18b6b53e9be90d33fce.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
