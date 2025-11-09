@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/'>
 
-<link rel="stylesheet" href="/scss/style.min.7aa349880715c48596189784ab4473cc7efafb342a2ae731cc70a9d172c30365.css"><meta property='og:title' content="Tag: JDBC常见问题 - 千叶—AcMiner">
+<link rel="stylesheet" href="/scss/style.min.02465c18945309db04c44dad8a731dadc845f6cfa4fe701723faa522d2d0570b.css"><meta property='og:title' content="Tag: JDBC常见问题 - 千叶—AcMiner">
 <meta property='og:description' content="黎明之前最黑暗">
 <meta property='og:url' content='https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/'>
 <meta property='og:site_name' content='千叶—AcMiner'>
@@ -14,6 +14,152 @@
 <meta name="twitter:title" content="Tag: JDBC常见问题 - 千叶—AcMiner">
 <meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
+
+<style id="force-hide-copy-buttons">
+     
+    .copyCodeButton,
+    button.copyCodeButton,
+    div.highlight > button,
+    div.highlight button,
+    div.highlight .copyCodeButton,
+    .highlight button:not(.copy-code-btn),
+    .highlight > button,
+    div.highlight button[class*="copy"],
+     
+    div.highlight button:not([data-copy-btn="true"]),
+     
+    div.highlight button[style*="top"],
+    div.highlight button[style*="right"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+        position: absolute !important;
+        left: -9999px !important;
+        z-index: -9999 !important;
+        clip: rect(0, 0, 0, 0) !important;
+    }
+    
+     
+    pre .copy-code-btn[data-copy-btn="true"] {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+    }
+    
+     
+    div.highlight > button,
+    .highlight > button {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+        position: absolute !important;
+        left: -9999px !important;
+        z-index: -9999 !important;
+        clip: rect(0, 0, 0, 0) !important;
+    }
+</style>
+<script>
+(function() {
+    
+    function removeAllThemeButtons() {
+        
+        document.querySelectorAll('.copyCodeButton, button.copyCodeButton').forEach(function(btn) {
+            if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
+                btn.remove();
+            }
+        });
+        
+        
+        document.querySelectorAll('div.highlight, .highlight').forEach(function(highlight) {
+            highlight.querySelectorAll('button').forEach(function(btn) {
+                
+                if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
+                    btn.remove();
+                }
+            });
+        });
+        
+        
+        document.querySelectorAll('div.highlight > button, .highlight > button').forEach(function(btn) {
+            
+            btn.remove();
+        });
+        
+        
+        document.querySelectorAll('div.highlight button, .highlight button').forEach(function(btn) {
+            
+            var parentPre = btn.closest('pre');
+            if (!parentPre) {
+                btn.remove();
+            } else {
+                
+                if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
+                    btn.remove();
+                }
+            }
+        });
+    }
+    
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', removeAllThemeButtons);
+    } else {
+        removeAllThemeButtons();
+    }
+    
+    
+    var observer = new MutationObserver(function() {
+        removeAllThemeButtons();
+    });
+    
+    if (document.body) {
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    } else {
+        document.addEventListener('DOMContentLoaded', function() {
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+    }
+    
+    
+    setInterval(removeAllThemeButtons, 100);
+    
+    
+    window.addEventListener('load', function() {
+        setTimeout(removeAllThemeButtons, 50);
+        setTimeout(removeAllThemeButtons, 100);
+        setTimeout(removeAllThemeButtons, 200);
+        setTimeout(removeAllThemeButtons, 500);
+        setTimeout(removeAllThemeButtons, 1000);
+        setTimeout(removeAllThemeButtons, 2000);
+    });
+    
+    
+    removeAllThemeButtons();
+    setTimeout(removeAllThemeButtons, 10);
+    setTimeout(removeAllThemeButtons, 50);
+    setTimeout(removeAllThemeButtons, 100);
+})();
+</script>
+
 
     </head>
     <body class="">
@@ -497,7 +643,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.4a664a6ab4b481396d4d5ae110d1d1fa64dbf3a75abdf18b6b53e9be90d33fce.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.c7d3e0b78f5d6bc064049e544385ab59fdaaf1488863096cd8ce4419df457d5f.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
