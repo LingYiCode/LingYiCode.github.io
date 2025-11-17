@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>DI on 千叶—AcMiner</title>
+        <link>https://qyChiba.github.io/tags/di/</link>
+        <description>Recent content in DI on 千叶—AcMiner</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Chiba</copyright>
+        <lastBuildDate>Mon, 17 Nov 2025 23:47:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/di/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第一个DI</title>
+        <link>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</link>
+        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</guid>
+        <description>&lt;img src="https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview.jpg" alt="Featured image of post 第一个DI" /&gt;&lt;h1 id=&#34;第一个di&#34;&gt;第一个DI
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;1.基于IOC管理Bean&lt;/p&gt;
+&lt;p&gt;2.Service中使用new创建的对象不能保留。&lt;/p&gt;
+&lt;p&gt;3.Service中提供Dao的方法&lt;/p&gt;
+&lt;p&gt;4.在applictioncontext.xml配置service和dao之间关系&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

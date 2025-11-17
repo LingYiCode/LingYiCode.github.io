@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="黎明之前最黑暗">
-<title>Tag: JDBC搭建和连接 - 千叶—AcMiner</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一个DI">
+<title>第一个DI</title>
 
-<link rel='canonical' href='https://qyChiba.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/'>
+<link rel='canonical' href='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/'>
 
-<link rel="stylesheet" href="/scss/style.min.02465c18945309db04c44dad8a731dadc845f6cfa4fe701723faa522d2d0570b.css"><meta property='og:title' content="Tag: JDBC搭建和连接 - 千叶—AcMiner">
-<meta property='og:description' content="黎明之前最黑暗">
-<meta property='og:url' content='https://qyChiba.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/'>
+<link rel="stylesheet" href="/scss/style.min.02465c18945309db04c44dad8a731dadc845f6cfa4fe701723faa522d2d0570b.css"><meta property='og:title' content="第一个DI">
+<meta property='og:description' content="第一个DI">
+<meta property='og:url' content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/'>
 <meta property='og:site_name' content='千叶—AcMiner'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-11-17T23:49:00&#43;08:00 '/>
-<meta name="twitter:title" content="Tag: JDBC搭建和连接 - 千叶—AcMiner">
-<meta name="twitter:description" content="黎明之前最黑暗"><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='DI' /><meta property='article:published_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='article:modified_time' content='2025-11-17T23:47:00&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview.jpg' />
+<meta name="twitter:title" content="第一个DI">
+<meta name="twitter:description" content="第一个DI"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <style id="force-hide-copy-buttons">
@@ -162,7 +163,9 @@
 
 
     </head>
-    <body class="">
+    <body class="
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -340,231 +343,179 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                <form action="/search/" class="search-form widget" >
-        <p>
-            <label>搜索</label>
-            <input name="keyword" required placeholder="输入关键词..." />
-        
-            <button title="搜索">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
+    
 
-
-
-            </button>
-        </p>
-    </form>
-            
-        
-            
-                <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">归档</h2>
-
-        
-        
-        
-        
-        
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/archives/#2025">
-                        
-                            <span class="year">2025</span>
-                            <span class="count">8</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#0001">
-                        
-                            <span class="year">0001</span>
-                            <span class="count">1</span>
-                        
-                    </a> 
-                </div>
-            
-        </div>
-    </section>
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">分类</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/jdbc/" class="font_size_3">
-                JDBC
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/">
+                <img src="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview_hu_f5486e8c0cbe99d3.jpg"
+                        srcset="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview_hu_f5486e8c0cbe99d3.jpg 800w, /post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview_hu_39c75257323c9984.jpg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post 第一个DI" />
+                
             </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
         
-            <a href="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/" class="font_size_3">
-                蓝桥杯
-            </a>
-        
-            <a href="/categories/ssm/" class="font_size_2">
+            <a href="/categories/ssm/" >
                 SSM
             </a>
         
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/">第一个DI</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            第一个DI
+        </h3>
+        
     </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-08-25</time>
+            </div>
+        
+
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+  <line x1="9" y1="9" x2="10" y2="9" />
+  <line x1="9" y1="13" x2="15" y2="13" />
+  <line x1="9" y1="17" x2="15" y2="17" />
+</svg>
+
+
+            <span class="article-time--wordcount">
+                102 字
+            </span>
+        </div>
+
+    </footer>
+    
+
+    
+</div>
+
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="第一个di">第一个DI
+</h1><blockquote>
+<p>1.基于IOC管理Bean</p>
+<p>2.Service中使用new创建的对象不能保留。</p>
+<p>3.Service中提供Dao的方法</p>
+<p>4.在applictioncontext.xml配置service和dao之间关系</p>
+</blockquote>
+
 </section>
 
-            
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <a href="/tags/di/">DI</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
 </svg>
 
 
 
-    </div>
-    <h2 class="widget-title section-title">标签云</h2>
-
-    <div class="tagCloud-tags" data-tag-count="8">
-        <a href="/tags/di/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="DI (1 篇文章)">
-                DI
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/ioc/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="IOC (1 篇文章)">
-                IOC
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="JDBC常见问题 (1 篇文章)">
-                JDBC常见问题
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="JDBC搭建和连接 (1 篇文章)">
-                JDBC搭建和连接
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/jdbc%E8%BF%9B%E9%98%B6/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="JDBC进阶 (1 篇文章)">
-                JDBC进阶
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="一维前缀和 (1 篇文章)">
-                一维前缀和
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="一维差分 (1 篇文章)">
-                一维差分
-                <span class="tag-count">(1)</span>
-            </a>
-        <a href="/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/" 
-               class="tag-cloud-item" 
-               data-count="1"
-               style="font-size: 0.8em; opacity: 0.6;"
-               title="日期模拟 (1 篇文章)">
-                日期模拟
-                <span class="tag-count">(1)</span>
-            </a>
-        
-    </div>
-</section>
-            
-        
-    </aside>
+        <span>
+            最后更新于 Nov 17, 2025 23:47 &#43;0800
+        </span>
+    </section></footer>
 
 
-            <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                Tags
-            
-        </h3>
-
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count">1 个页面</h3>
-                <h1 class="section-term">JDBC搭建和连接</h1>
-                
-            </div>
-        </div>
-    </header>
     
-    <section class="article-list--compact">
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/">
         
-            <article>
-    <a href="/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/">
-        <div class="article-details">
-            <h2 class="article-title">JDBC-入门到高级</h2>
-            <footer class="article-time">
-                <time datetime='2025-08-23T23:01:38&#43;08:00'>2025-08-23</time>
-            </footer>
-        </div>
+        
             <div class="article-image">
-                <img src="/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua_hu_469f0924edc03d5b.png" 
-                        width="120"
-                        height="120" 
-                        alt="JDBC-入门到高级"
-                        loading="lazy">
+                <img src="/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.e85b02e18fd3c5069c68de0f7ffdbcc2_hu_bb7d23fb02e2781c.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 第一个IOC"
+                        
+                        data-hash="md5-6FsC4Y/TxQacaN4Pf/28wg==">
                 
             </div>
         
+
+        <div class="article-details">
+            <h2 class="article-title">第一个IOC</h2>
+        </div>
     </a>
 </article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
         
-    </section>
-<footer class="site-footer">
+    
+
+    <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -654,6 +605,84 @@
 </script>
 
 
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>
