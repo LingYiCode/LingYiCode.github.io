@@ -8,6 +8,14 @@
         <language>zh-cn</language>
         <copyright>Chiba</copyright>
         <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SSM</title>
+        <link>https://qyChiba.github.io/categories/ssm/</link>
+        <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/categories/ssm/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>蓝桥杯</title>
         <link>https://qyChiba.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Mon, 01 Sep 2025 23:00:26 +0800</pubDate>
@@ -22,14 +30,6 @@
         
         <guid>https://qyChiba.github.io/categories/jdbc/</guid>
         <description>&lt;img src="https://qyChiba.github.io/categories/jdbc/cover.jpg" alt="Featured image of post JDBC" /&gt;</description>
-        </item>
-        <item>
-        <title>SSM</title>
-        <link>https://qyChiba.github.io/categories/ssm/</link>
-        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
-        
-        <guid>https://qyChiba.github.io/categories/ssm/</guid>
-        <description></description>
         </item>
         
     </channel>

@@ -8,6 +8,22 @@
         <language>zh-cn</language>
         <copyright>Chiba</copyright>
         <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SSM日志</title>
+        <link>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>DI</title>
+        <link>https://qyChiba.github.io/tags/di/</link>
+        <pubDate>Mon, 17 Nov 2025 23:47:45 +0800</pubDate>
+        
+        <guid>https://qyChiba.github.io/tags/di/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>日期模拟</title>
         <link>https://qyChiba.github.io/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/</link>
         <pubDate>Mon, 01 Sep 2025 23:00:26 +0800</pubDate>
@@ -40,35 +56,11 @@
         <description></description>
         </item>
         <item>
-        <title>DI</title>
-        <link>https://qyChiba.github.io/tags/di/</link>
-        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
-        
-        <guid>https://qyChiba.github.io/tags/di/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>IOC</title>
-        <link>https://qyChiba.github.io/tags/ioc/</link>
-        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
-        
-        <guid>https://qyChiba.github.io/tags/ioc/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>JDBC常见问题</title>
         <link>https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
         
         <guid>https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SSM日志</title>
-        <link>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
-        <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
-        
-        <guid>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</guid>
         <description></description>
         </item>
         <item>
