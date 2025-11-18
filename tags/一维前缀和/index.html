@@ -606,8 +606,12 @@
         
         
         <div class="stat-item">
-            <span>
-                📊 访问数据由 <a href="https://v6.51.la/" target="_blank" style="color: inherit; text-decoration: underline;">51.la</a> 统计
+            <span id="busuanzi_container_site_pv">
+                本站总访问量 <strong><span id="busuanzi_value_site_pv">-</span></strong> 次
+            </span>
+            <span class="separator">|</span>
+            <span id="busuanzi_container_site_uv">
+                总访客数 <strong><span id="busuanzi_value_site_uv">-</span></strong> 人
             </span>
         </div>
         
@@ -622,6 +626,9 @@
         
     </section>
 </footer>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
@@ -649,7 +656,6 @@
     
     setInterval(updateRuntime, 60000);
 })();
-
 
 </script>
 
