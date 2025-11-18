@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.02465c18945309db04c44dad8a731dadc845f6cfa4fe701723faa522d2d0570b.css"><meta property='og:title' content="区间次方和-蓝桥杯">
+<link rel="stylesheet" href="/scss/style.min.f9787158b11fdcc20c474ac40a7c24fcd6ac7153750996eedfdd8d9ba04882b4.css"><meta property='og:title' content="区间次方和-蓝桥杯">
 <meta property='og:description' content="区间次方和 - 3382 题目： 给定一个长度为n的整数数组α以及m个查询。每个查询包含三个整数l,r,k表示询问l～r之间所有元素的k次方和。请对每个查询输出一个答案，答案对 109 + 7 取 模。\n">
 <meta property='og:url' content='https://qyChiba.github.io/post/%E5%8C%BA%E9%97%B4%E6%AC%A1%E6%96%B9%E5%92%8C-%E8%93%9D%E6%A1%A5%E6%9D%AF/'>
 <meta property='og:site_name' content='千叶—AcMiner'>
@@ -739,8 +739,22 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3O6NVSdiw8Ac5DwP",ck:"3O6NVSdiw8Ac5DwP"})</script>
+<script>
+
+window.LA = window.LA || {};
+window.LA.init = window.LA.init || function(){};
+</script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" onerror="console.log('51.la 统计被拦截，使用不蒜子统计')"></script>
+<script>
+
+if (typeof LA !== 'undefined' && typeof LA.init === 'function' && LA.init.toString().indexOf('function(){}') === -1) {
+    try {
+        LA.init({id:"3O6NVSdiw8Ac5DwP",ck:"3O6NVSdiw8Ac5DwP"});
+    } catch(e) {
+        console.log('51.la 初始化失败:', e.message);
+    }
+}
+</script>
 
 <script>
 
@@ -962,16 +976,20 @@
 
 
 ...
-<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js" 
+        onerror="this.onerror=null;this.src='https://unpkg.com/pjax@0.2.8/pjax.min.js'"></script>
 
     
     <script src=https://qyChiba.github.io/js/topbar.min.js></script>
 
 
 <script>
-  var pjax = new Pjax({
-    selectors: [".main-container"],
-  });
+  
+  if (typeof Pjax !== 'undefined') {
+    var pjax = new Pjax({
+      selectors: [".main-container"],
+    });
 
   pjax._handleResponse = pjax.handleResponse;
   pjax.handleResponse = function (responseText, request, href, options) {
@@ -1013,15 +1031,22 @@
         
         topbar.hide();
     })
+  } else {
+    console.log('PJAX 加载失败，页面将使用传统跳转方式');
+  }
 </script>
 
 
 <div id="particles-js" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" 
+        onerror="this.onerror=null;this.src='https://unpkg.com/particles.js@2.0.0/particles.min.js'"></script>
 <script>
   
-  particlesJS('particles-js', {
+  if (typeof particlesJS !== 'undefined') {
+    
+    particlesJS('particles-js', {
     "particles": {
       "number": {
         "value": 120,  
@@ -1140,8 +1165,10 @@
 
   
   setTimeout(updateParticlesColor, 500);
+  } else {
+    console.log('Particles.js 加载失败，已跳过背景动效');
+  }
 </script>
-
 
     </body>
 </html>
