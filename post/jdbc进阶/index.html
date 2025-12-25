@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="JDBC-进阶 1.实体类与ORM 在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。\n">
 <title>JDBC进阶</title>
 
 <link rel='canonical' href='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/'>
 
-<link rel="stylesheet" href="/scss/style.min.591d493caa3ac7d15c78acb7abe475a866b2c0375b54b353feb9ab88fbc1105d.css"><meta property='og:title' content="JDBC进阶">
+<link rel="stylesheet" href="/scss/style.min.81983ddbede68f87893c8355521322ac11081747fa25a9fc775323ae03f5d8e1.css"><meta property='og:title' content="JDBC进阶">
 <meta property='og:description' content="JDBC-进阶 1.实体类与ORM 在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。\n">
 <meta property='og:url' content='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/'>
-<meta property='og:site_name' content='千叶—AcMiner'>
+<meta property='og:site_name' content='Chiba'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JDBC进阶' /><meta property='article:published_time' content='2025-08-25T15:29:50&#43;08:00'/><meta property='article:modified_time' content='2025-08-25T15:29:50&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/jdbc%E8%BF%9B%E9%98%B6/preview.jpg' />
 <meta name="twitter:title" content="JDBC进阶">
 <meta name="twitter:description" content="JDBC-进阶 1.实体类与ORM 在使用JDBC操作数据库时，会发现数据库里面的数据是零散的，明明在数据库中是一行完整的数据，到了java中变成了一个一个的变量，不利于维护和管理，而java是面向对象的，一个表对应一个类，一行数据对应java中一个对象，一个列对应的是对象的属性，所以要把数据存储在一个载体里，这个载体是实体类。\n"><meta name="twitter:card" content="summary_large_image">
@@ -205,7 +205,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_bc479685c9ded74d.png" width="300"
+                        <img src="/img/avatar_hu_c686b7f6d35b401d.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -218,7 +218,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">千叶—AcMiner</a></h1>
+            <h1 class="site-name"><a href="/">Chiba</a></h1>
             <h2 class="site-description">黎明之前最黑暗</h2>
         </div>
     </header><ol class="menu" id="main-menu">
@@ -381,8 +381,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/post/jdbc%E8%BF%9B%E9%98%B6/">
-                <img src="/post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_458cae6ee230ffed.jpg"
-                        srcset="/post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_458cae6ee230ffed.jpg 800w, /post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_fc8a309ad19530a.jpg 1600w"
+                <img src="/post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_de474ee06caeeee4.jpg"
+                        srcset="/post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_de474ee06caeeee4.jpg 800w, /post/jdbc%E8%BF%9B%E9%98%B6/preview_hu_86cc94953bc28cb7.jpg 1600w"
                         width="800" 
                         height="800" 
                         loading="lazy"
@@ -490,15 +490,15 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.advanced.pojo</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//类名对应的是数据库t_后面的单词全写。 </span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Employee</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">//类名对应的是数据库t_后面的单词全写。 </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Employee</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">empId</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">empName</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">empSalary</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">Integer</span><span class="w"> </span><span class="n">empAge</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//此处写get、set、无参、有参、toString方法</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>封装代码：</p>
@@ -546,14 +546,14 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.advanced</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">com.Chiba.advanced.pojo.Employee</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">com.Chiba.advanced.pojo.Employee</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.*</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.ArrayList</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.*</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.ArrayList</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCAdvanced</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCAdvanced</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testORM</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//passowrd修改为mysql设置的密码</span><span class="w">
@@ -581,7 +581,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>输出多个结果：</p>
@@ -631,14 +631,14 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.advanced</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">com.Chiba.advanced.pojo.Employee</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">com.Chiba.advanced.pojo.Employee</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.*</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.ArrayList</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.*</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.ArrayList</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCAdvanced</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">JDBCAdvanced</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Test</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testORm</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">//passowrd修改为mysql设置的密码</span><span class="w">
@@ -658,7 +658,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">employee</span><span class="p">.</span><span class="na">setEmpName</span><span class="p">(</span><span class="n">empName</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">employee</span><span class="p">.</span><span class="na">setEmpSalary</span><span class="p">(</span><span class="n">empSalary</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">employee</span><span class="p">.</span><span class="na">setEmpAge</span><span class="p">(</span><span class="n">empAge</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//            将每次循环封装的一个数据的对象存储在集合里</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">//            将每次循环封装的一个数据的对象存储在集合里</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">employeeList</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">employee</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Employee</span><span class="w"> </span><span class="n">emp</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">employeeList</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -668,7 +668,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">preparedStatement</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">connection</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -705,7 +705,7 @@
         
         
             <div class="article-image">
-                <img src="/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.f07ea6f4f3b8b637c6d62aeeb2959516_hu_7c91041f51a41f51.jpg" 
+                <img src="/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.f07ea6f4f3b8b637c6d62aeeb2959516_hu_6d31fd4a7092183f.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -729,7 +729,7 @@
         
         
             <div class="article-image">
-                <img src="/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.d1a41a6b4be526a43017251dca481196_hu_6b4dd6da496ed048.png" 
+                <img src="/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.d1a41a6b4be526a43017251dca481196_hu_76caa8f49de67e9e.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -797,16 +797,6 @@
         </div>
         
         
-        <div class="stat-item">
-            <span id="busuanzi_container_site_pv">
-                本站总访问量 <strong><span id="busuanzi_value_site_pv">-</span></strong> 次
-            </span>
-            <span class="separator">|</span>
-            <span id="busuanzi_container_site_uv">
-                总访客数 <strong><span id="busuanzi_value_site_uv">-</span></strong> 人
-            </span>
-        </div>
-        
         
         <div class="stat-item">Hugo 主题 Stack 由Jimmy设计
         </div>
@@ -818,27 +808,6 @@
         
     </section>
 </footer>
-
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-<script>
-
-window.LA = window.LA || {};
-window.LA.init = window.LA.init || function(){};
-</script>
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" onerror="console.log('51.la 统计被拦截，使用不蒜子统计')"></script>
-<script>
-
-if (typeof LA !== 'undefined' && typeof LA.init === 'function' && LA.init.toString().indexOf('function(){}') === -1) {
-    try {
-        LA.init({id:"3O6NVSdiw8Ac5DwP",ck:"3O6NVSdiw8Ac5DwP"});
-    } catch(e) {
-        console.log('51.la 初始化失败:', e.message);
-    }
-}
-</script>
 
 <script>
 
@@ -862,7 +831,6 @@ if (typeof LA !== 'undefined' && typeof LA.init === 'function' && LA.init.toStri
     
     setInterval(updateRuntime, 60000);
 })();
-
 </script>
 
 

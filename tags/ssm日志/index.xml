@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>SSM日志 on 千叶—AcMiner</title>
+        <title>SSM日志 on Chiba</title>
         <link>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
-        <description>Recent content in SSM日志 on 千叶—AcMiner</description>
+        <description>Recent content in SSM日志 on Chiba</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <language>en-us</language>
         <copyright>Chiba</copyright>
         <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SSM日志</title>
@@ -22,7 +22,7 @@
 &lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF.jpg&#34;
 	width=&#34;1201&#34;
 	height=&#34;907&#34;
-	srcset=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_225ae47807d08954.jpg 480w, https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_f27925d707f4337e.jpg 1024w&#34;
+	srcset=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_ea0e4da882d176b5.jpg 480w, https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_6f12c9edab86c002.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;解决方法&#34;
