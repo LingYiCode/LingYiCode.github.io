@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://qyChiba.github.io/categories/jdbc/'>
 
-<link rel="stylesheet" href="/scss/style.min.81983ddbede68f87893c8355521322ac11081747fa25a9fc775323ae03f5d8e1.css"><meta property='og:title' content="Category: JDBC - Chiba">
+<link rel="stylesheet" href="/scss/style.min.1ad7462a9b6d05e5136194151333a70aa32d4e922b5f3fd56af734ce9ac50e9e.css"><meta property='og:title' content="Category: JDBC - Chiba">
 <meta property='og:description' content="Java数据库连接技术详解">
 <meta property='og:url' content='https://qyChiba.github.io/categories/jdbc/'>
 <meta property='og:site_name' content='Chiba'>
@@ -16,151 +16,41 @@
     <meta name="twitter:image" content='https://qyChiba.github.io/categories/jdbc/cover.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://qyChiba.github.io/categories/jdbc/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
-<style id="force-hide-copy-buttons">
+<style>
      
-    .copyCodeButton,
-    button.copyCodeButton,
-    div.highlight > button,
-    div.highlight button,
-    div.highlight .copyCodeButton,
-    .highlight button:not(.copy-code-btn),
-    .highlight > button,
-    div.highlight button[class*="copy"],
-     
-    div.highlight button:not([data-copy-btn="true"]),
-     
-    div.highlight button[style*="top"],
-    div.highlight button[style*="right"] {
+    .copyCodeButton {
         display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-        width: 0 !important;
-        height: 0 !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        border: none !important;
-        position: absolute !important;
-        left: -9999px !important;
-        z-index: -9999 !important;
-        clip: rect(0, 0, 0, 0) !important;
     }
     
      
-    pre .copy-code-btn[data-copy-btn="true"] {
+    div.highlight button[data-copy-btn="true"],
+    .highlight button[data-copy-btn="true"] {
         display: block !important;
         visibility: visible !important;
         opacity: 1 !important;
         pointer-events: auto !important;
-    }
-    
-     
-    div.highlight > button,
-    .highlight > button {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-        width: 0 !important;
-        height: 0 !important;
-        padding: 0 !important;
+        width: auto !important;
+        height: auto !important;
+        padding: 4px 12px !important;
         margin: 0 !important;
         border: none !important;
         position: absolute !important;
-        left: -9999px !important;
-        z-index: -9999 !important;
-        clip: rect(0, 0, 0, 0) !important;
+        top: 8px !important;
+        right: 8px !important;
+        left: auto !important;
+        z-index: 9999 !important;
+        clip: unset !important;
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #fff !important;
+        border-radius: 4px !important;
+        font-size: 12px !important;
+        cursor: pointer !important;
+    }
+    
+    div.highlight button[data-copy-btn="true"]:hover {
+        background: rgba(0, 0, 0, 0.8) !important;
     }
 </style>
-<script>
-(function() {
-    
-    function removeAllThemeButtons() {
-        
-        document.querySelectorAll('.copyCodeButton, button.copyCodeButton').forEach(function(btn) {
-            if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
-                btn.remove();
-            }
-        });
-        
-        
-        document.querySelectorAll('div.highlight, .highlight').forEach(function(highlight) {
-            highlight.querySelectorAll('button').forEach(function(btn) {
-                
-                if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
-                    btn.remove();
-                }
-            });
-        });
-        
-        
-        document.querySelectorAll('div.highlight > button, .highlight > button').forEach(function(btn) {
-            
-            btn.remove();
-        });
-        
-        
-        document.querySelectorAll('div.highlight button, .highlight button').forEach(function(btn) {
-            
-            var parentPre = btn.closest('pre');
-            if (!parentPre) {
-                btn.remove();
-            } else {
-                
-                if (!btn.hasAttribute('data-copy-btn') || btn.getAttribute('data-copy-btn') !== 'true') {
-                    btn.remove();
-                }
-            }
-        });
-    }
-    
-    
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', removeAllThemeButtons);
-    } else {
-        removeAllThemeButtons();
-    }
-    
-    
-    var observer = new MutationObserver(function() {
-        removeAllThemeButtons();
-    });
-    
-    if (document.body) {
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-    } else {
-        document.addEventListener('DOMContentLoaded', function() {
-            observer.observe(document.body, {
-                childList: true,
-                subtree: true
-            });
-        });
-    }
-    
-    
-    setInterval(removeAllThemeButtons, 100);
-    
-    
-    window.addEventListener('load', function() {
-        setTimeout(removeAllThemeButtons, 50);
-        setTimeout(removeAllThemeButtons, 100);
-        setTimeout(removeAllThemeButtons, 200);
-        setTimeout(removeAllThemeButtons, 500);
-        setTimeout(removeAllThemeButtons, 1000);
-        setTimeout(removeAllThemeButtons, 2000);
-    });
-    
-    
-    removeAllThemeButtons();
-    setTimeout(removeAllThemeButtons, 10);
-    setTimeout(removeAllThemeButtons, 50);
-    setTimeout(removeAllThemeButtons, 100);
-})();
-</script>
-
 
     </head>
     <body class="">
@@ -217,7 +107,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Chiba</a></h1>
-            <h2 class="site-description">黎明之前最黑暗</h2>
+            <h2 class="site-description" id="typewriter" data-text="黎明之前最黑暗"></h2>
         </div>
     </header><ol class="menu" id="main-menu">
         
@@ -244,13 +134,14 @@
         
         
         <li >
-            <a href='/%E5%85%B3%E4%BA%8E/' >
+            <a href='/%E5%85%B3%E4%BA%8E%E6%88%91/' >
                 
                 
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6M5 12l7-7 7 7"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="24" height="24" fill="currentColor"><path d="M157.456384 109.953024c-3.01056-10.549248 3.764224-21.086208 14.311424-24.109056 10.551296-3.01056 21.086208 3.774464 24.111104 14.311424 16.570368 64.790528 29.376512 131.837952 38.408192 199.626752 8.290304 67.047424 12.808192 135.600128 12.808192 204.167168 0 68.538368-4.517888 136.32512-12.808192 203.38688-9.03168 67.790848-21.839872 134.85056-38.408192 199.630848-3.024896 10.53696-13.559808 17.307648-24.111104 14.297088-10.5472-2.260992-17.321984-13.54752-14.311424-24.111104 16.570368-63.27296 28.626944-128.049152 36.917248-194.328576 8.278016-64.80896 12.808192-131.086336 12.808192-198.873088 0-67.813376-4.528128-134.862848-12.808192-198.887424C186.083328 238.768128 174.0288 173.238272 157.456384 109.953024L157.456384 109.953024z"/><path d="M879.894528 100.155392c2.258944-10.53696 13.545472-17.321984 24.109056-14.311424 10.53696 3.022848 16.556032 13.559808 14.297088 24.109056-16.582656 63.285248-28.624896 128.815104-37.656576 195.108864-7.553024 64.024576-12.068864 131.074048-12.068864 198.887424 0 67.7888 4.51584 134.066176 12.068864 198.873088 9.03168 66.277376 21.07392 131.055616 37.656576 194.328576 2.258944 10.563584-3.762176 21.85216-14.297088 24.111104-10.563584 3.01056-21.85216-3.762176-24.109056-14.297088-16.584704-64.780288-29.37856-131.84-38.438912-199.630848-8.278016-67.059712-12.791808-134.848512-12.791808-203.38688 0-68.56704 4.513792-137.121792 12.791808-204.167168C850.515968 231.993344 863.309824 164.94592 879.894528 100.155392L879.894528 100.155392z"/><path d="M866.322432 721.637376c11.313152 0 19.591168 8.302592 19.591168 19.595264 0 11.288576-8.278016 19.58912-19.591168 19.58912L587.59168 760.82176c-11.290624 0-19.56864-8.302592-19.56864-19.58912 0-11.29472 8.278016-19.595264 19.56864-19.595264L866.322432 721.637376z"/><path d="M587.59168 295.266304c-11.290624 0-19.56864-9.033728-19.56864-19.580928 0-11.30496 8.278016-20.348928 19.56864-20.348928l277.221376 0c11.3152 0 20.348928 9.043968 20.348928 20.348928 0 10.5472-9.03168 19.580928-20.348928 19.580928L587.59168 295.266304z"/><path d="M488.167424 721.637376c10.539008 0 19.582976 8.302592 19.582976 19.595264 0 11.288576-9.043968 19.58912-19.582976 19.58912L209.440768 760.82176c-11.302912 0-20.348928-8.302592-20.348928-19.58912 0-11.29472 9.046016-19.595264 20.348928-19.595264L488.167424 721.637376z"/><path d="M210.944 295.266304c-11.302912 0-20.34688-9.033728-20.34688-19.580928 0-11.30496 9.043968-20.348928 20.34688-20.348928l277.221376 0c10.539008 0 19.582976 9.043968 19.582976 20.348928 0 10.5472-9.043968 19.580928-19.582976 19.580928L210.944 295.266304z"/><path d="M850.515968 566.468608c11.288576 0 20.322304 9.03168 20.322304 20.322304 0 10.561536-9.033728 19.593216-20.322304 19.593216L587.59168 606.384128c-11.290624 0-19.56864-9.03168-19.56864-19.593216 0-11.290624 8.278016-20.322304 19.56864-20.322304L850.515968 566.468608z"/><path d="M587.59168 449.695744c-11.290624 0-19.56864-8.280064-19.56864-19.582976s8.278016-19.593216 19.56864-19.593216l262.924288 0c10.53696 0 19.566592 8.292352 19.566592 19.593216s-9.029632 19.582976-19.566592 19.582976L587.59168 449.695744z"/><path d="M488.167424 566.468608c10.539008 0 19.582976 9.03168 19.582976 20.322304 0 10.561536-9.043968 19.593216-19.582976 19.593216L224.505856 606.384128c-10.551296 0-19.595264-9.03168-19.595264-19.593216 0-11.290624 9.043968-20.322304 19.595264-20.322304L488.167424 566.468608z"/><path d="M225.257472 449.695744c-11.302912 0-20.34688-8.280064-20.34688-19.582976s9.043968-19.593216 20.34688-19.593216l262.909952 0c10.539008 0 19.582976 8.292352 19.582976 19.593216s-9.043968 19.582976-19.582976 19.582976L225.257472 449.695744z"/></svg>
+
                 
-                <span>关于</span>
+                <span>关于我</span>
             </a>
         </li>
         
@@ -340,6 +231,49 @@
         </li>
     </ol>
 </aside>
+
+
+<script>
+(function() {
+    const el = document.getElementById('typewriter');
+    if (!el) return;
+    
+    const text = el.getAttribute('data-text') || '';
+    let index = 0;
+    let isDeleting = false;
+    
+    function type() {
+        if (!isDeleting) {
+            
+            if (index < text.length) {
+                el.textContent = text.substring(0, index + 1);
+                index++;
+                setTimeout(type, 150);
+            } else {
+                
+                setTimeout(() => {
+                    isDeleting = true;
+                    type();
+                }, 3000);
+            }
+        } else {
+            
+            if (index > 0) {
+                el.textContent = text.substring(0, index - 1);
+                index--;
+                setTimeout(type, 80);
+            } else {
+                
+                isDeleting = false;
+                setTimeout(type, 3000);
+            }
+        }
+    }
+    
+    
+    setTimeout(type, 500);
+})();
+</script>
 
     <aside class="sidebar right-sidebar sticky">
         
@@ -668,6 +602,13 @@
     </section>
 </footer>
 
+
+<button id="back-to-top" title="返回顶部" aria-label="返回顶部">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</button>
+
 <script>
 
 (function() {
@@ -690,6 +631,107 @@
     
     setInterval(updateRuntime, 60000);
 })();
+
+
+(function() {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+    
+    
+    btn.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+})();
+
+
+(function() {
+    const toc = document.querySelector('.widget--toc');
+    if (!toc) return;
+    
+    const tocLinks = toc.querySelectorAll('a');
+    const headings = [];
+    
+    tocLinks.forEach(function(link) {
+        const id = link.getAttribute('href').slice(1);
+        const heading = document.getElementById(id);
+        if (heading) headings.push({ id: id, el: heading, link: link });
+    });
+    
+    if (headings.length === 0) return;
+    
+    function highlightToc() {
+        const scrollTop = window.scrollY + 100;
+        let current = headings[0];
+        
+        for (let i = 0; i < headings.length; i++) {
+            if (headings[i].el.offsetTop <= scrollTop) {
+                current = headings[i];
+            }
+        }
+        
+        tocLinks.forEach(function(link) {
+            link.classList.remove('active');
+        });
+        
+        if (current) {
+            current.link.classList.add('active');
+        }
+    }
+    
+    window.addEventListener('scroll', highlightToc);
+    highlightToc();
+})();
+
+
+(function() {
+    function addCopyButtons() {
+        document.querySelectorAll('div.highlight').forEach(function(highlight) {
+            if (highlight.querySelector('button[data-copy-btn="true"]')) return;
+            
+            var btn = document.createElement('button');
+            btn.textContent = 'Copy';
+            btn.setAttribute('data-copy-btn', 'true');
+            
+            highlight.style.position = 'relative';
+            
+            btn.onclick = function() {
+                var code = highlight.querySelector('code');
+                var text = code ? code.textContent : '';
+                
+                navigator.clipboard.writeText(text).then(function() {
+                    btn.textContent = 'Copied!';
+                    btn.style.background = '#10b981';
+                    setTimeout(function() {
+                        btn.textContent = 'Copy';
+                        btn.style.background = '';
+                    }, 2000);
+                });
+            };
+            
+            highlight.appendChild(btn);
+        });
+    }
+    
+    setTimeout(addCopyButtons, 100);
+    setTimeout(addCopyButtons, 500);
+    setTimeout(addCopyButtons, 1000);
+    
+    document.addEventListener('pjax:complete', function() {
+        setTimeout(addCopyButtons, 300);
+    });
+})();
 </script>
 
 
@@ -700,7 +742,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.c7d3e0b78f5d6bc064049e544385ab59fdaaf1488863096cd8ce4419df457d5f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.2f84a2f6b77e9abd0fb38aeabb40eb52bb90218df85a560864286118c0807873.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
