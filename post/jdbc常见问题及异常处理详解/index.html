@@ -4,16 +4,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="总结并详解了使用 Java JDBC 进行数据库操作时常见的资源管理、SQL 语法错误、参数未设置以及连接通信异常等问题及其解决方案。">
 <title>JDBC常见问题及异常处理详解</title>
 
-<link rel='canonical' href='https://qyChiba.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/'>
+<link rel='canonical' href='https://lingyicode.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/'>
 
-<link rel="stylesheet" href="/scss/style.min.1ad7462a9b6d05e5136194151333a70aa32d4e922b5f3fd56af734ce9ac50e9e.css"><meta property='og:title' content="JDBC常见问题及异常处理详解">
+<link rel="stylesheet" href="/scss/style.min.2eae019617538d4a4165e2c4a87f92887b06e79a6f9cf501331230f8f6d87f0b.css"><meta property='og:title' content="JDBC常见问题及异常处理详解">
 <meta property='og:description' content="总结并详解了使用 Java JDBC 进行数据库操作时常见的资源管理、SQL 语法错误、参数未设置以及连接通信异常等问题及其解决方案。">
-<meta property='og:url' content='https://qyChiba.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/'>
-<meta property='og:site_name' content='Chiba'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JDBC常见问题' /><meta property='article:published_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='article:modified_time' content='2025-10-11T11:06:00&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.jpg' />
+<meta property='og:url' content='https://lingyicode.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/'>
+<meta property='og:site_name' content='凌奕'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JDBC常见问题' /><meta property='article:published_time' content='2025-08-25T14:25:45&#43;08:00'/><meta property='article:modified_time' content='2025-10-11T11:06:00&#43;08:00'/><meta property='og:image' content='https://lingyicode.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.jpg' />
 <meta name="twitter:title" content="JDBC常见问题及异常处理详解">
 <meta name="twitter:description" content="总结并详解了使用 Java JDBC 进行数据库操作时常见的资源管理、SQL 语法错误、参数未设置以及连接通信异常等问题及其解决方案。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://qyChiba.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.jpg' />
+    <meta name="twitter:image" content='https://lingyicode.github.io/post/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E8%AF%A6%E8%A7%A3/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <style>
@@ -108,7 +108,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Chiba</a></h1>
+            <h1 class="site-name"><a href="/">凌奕</a></h1>
             <h2 class="site-description" id="typewriter" data-text="黎明之前最黑暗"></h2>
         </div>
     </header><ol class="menu" id="main-menu">
@@ -618,7 +618,7 @@
         
             2025 - 
         
-        2026 Chiba
+        2026 凌奕
     </section>
     
     
@@ -651,7 +651,7 @@
             
                 
             
-            发布了 <strong>9</strong> 篇文章 | 共 <strong>8.8K</strong> 字
+            发布了 <strong>9</strong> 篇文章 | 共 <strong>9.1K</strong> 字
         </div>
         
         
@@ -662,7 +662,7 @@
     
     <section class="powerby">
         
-            Chiba <br/>
+            凌奕 <br/>
         
     </section>
 </footer>
@@ -822,108 +822,13 @@
     }());
 </script>
 
-<div id="aplayer"></div>
-
-<script>
-  
-  let aplayerLoaded = false;
-  let ap = null;
-
-  function initAPlayer() {
-    if (aplayerLoaded) return;
-    aplayerLoaded = true;
-
-    
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js';
-    script.onload = function() {
-      const musicDir = "https://qyChiba.github.io/" + 'music/';
-      const songs = [
-        '你离开的真相-高至豪',
-        '意外-薛之谦',
-        '唯一-邓紫棋',
-        'Love Story-Taylor Swift',
-        '青花-周传雄'
-      ];
-      
-      let audios = [];
-      songs.forEach((item) => {
-        const songInfo = item.split('-');
-        audios.push({
-          name: songInfo[0],
-          artist: songInfo[1],
-          url: musicDir + item + '/song.mp3',
-          cover: musicDir + item + '/cover.jpg',
-          lrc: musicDir + item + '/lyric.lrc'
-        });
-      });
-      
-      ap = new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: true,
-        listMaxHeight: 'px',
-        lrcType: 3,
-        preload: 'none', 
-        audio: audios
-      });
-
-      
-      restorePlayState();
-    };
-    document.head.appendChild(script);
-  }
-
-  
-  let userInteracted = false;
-  function delayedInit() {
-    if (!userInteracted) {
-      userInteracted = true;
-      initAPlayer();
-    }
-  }
-  
-  
-  ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event => {
-    document.addEventListener(event, delayedInit, { once: true, passive: true });
-  });
-  
-  
-  setTimeout(initAPlayer, 3000);
-
-  function restorePlayState() {
-    if (!ap) return;
-    const playInfo = JSON.parse(localStorage.getItem("playInfo"));
-    if (!playInfo) return;
-    
-    ap.list.switch(playInfo.index);
-    setTimeout(() => {
-      ap.seek(playInfo.currentTime);
-      if (!playInfo.paused) {
-        ap.play();
-      }
-    }, 500);
-  }
-  
-  window.addEventListener('beforeunload', () => {
-    if (ap && ap.audio) {
-      const playInfo = {
-        index: ap.list.index,
-        currentTime: ap.audio.currentTime,
-        paused: ap.audio.paused
-      };
-      localStorage.setItem("playInfo", JSON.stringify(playInfo));
-    }
-  });
-</script>
-
-
 ...
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js" 
         onerror="this.onerror=null;this.src='https://unpkg.com/pjax@0.2.8/pjax.min.js'"></script>
 
     
-    <script src=https://qyChiba.github.io/js/topbar.min.js></script>
+    <script src=https://lingyicode.github.io/js/topbar.min.js></script>
 
 
 <script>
@@ -1111,6 +1016,7 @@
     console.log('Particles.js 加载失败，已跳过背景动效');
   }
 </script>
+
 
     </body>
 </html>

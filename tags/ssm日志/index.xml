@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>SSM日志 on Chiba</title>
-        <link>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
-        <description>Recent content in SSM日志 on Chiba</description>
+        <title>SSM日志 on 凌奕</title>
+        <link>https://lingyicode.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
+        <description>Recent content in SSM日志 on 凌奕</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Chiba</copyright>
-        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>凌奕</copyright>
+        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://lingyicode.github.io/tags/ssm%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SSM日志</title>
-        <link>https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/</link>
+        <link>https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/</link>
         <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/preview.jpg" alt="Featured image of post SSM日志" /&gt;&lt;h1 id=&#34;日志&#34;&gt;日志
+        <guid>https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/preview.jpg" alt="Featured image of post SSM日志" /&gt;&lt;h1 id=&#34;日志&#34;&gt;日志
 &lt;/h1&gt;&lt;h3 id=&#34;idea创建一个空的maven项目后运行编译报错java-不再支持源选项-7请使用-8-或更高版本&#34;&gt;idea创建一个空的Maven项目后运行编译报错：&lt;code&gt;java: 不再支持源选项 7。请使用 8 或更高版本。&lt;/code&gt;
 &lt;/h3&gt;&lt;p&gt;解决方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;方法1.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF.jpg&#34;
 	width=&#34;1201&#34;
 	height=&#34;907&#34;
-	srcset=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_ea0e4da882d176b5.jpg 480w, https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_6f12c9edab86c002.jpg 1024w&#34;
+	srcset=&#34;https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_ea0e4da882d176b5.jpg 480w, https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_6f12c9edab86c002.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;解决方法&#34;

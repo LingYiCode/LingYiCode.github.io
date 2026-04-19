@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Chiba</title>
-        <link>https://qyChiba.github.io/categories/</link>
-        <description>Recent content in Categories on Chiba</description>
+        <title>Categories on 凌奕</title>
+        <link>https://lingyicode.github.io/categories/</link>
+        <description>Recent content in Categories on 凌奕</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Chiba</copyright>
-        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>凌奕</copyright>
+        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://lingyicode.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SSM</title>
-        <link>https://qyChiba.github.io/categories/ssm/</link>
+        <link>https://lingyicode.github.io/categories/ssm/</link>
         <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/categories/ssm/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/categories/ssm/cover.jpg" alt="Featured image of post SSM" /&gt;</description>
+        <guid>https://lingyicode.github.io/categories/ssm/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/categories/ssm/cover.jpg" alt="Featured image of post SSM" /&gt;</description>
         </item>
         <item>
         <title>蓝桥杯</title>
-        <link>https://qyChiba.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
+        <link>https://lingyicode.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</link>
         <pubDate>Mon, 01 Sep 2025 23:00:26 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/cover.jpg" alt="Featured image of post 蓝桥杯" /&gt;</description>
+        <guid>https://lingyicode.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/cover.jpg" alt="Featured image of post 蓝桥杯" /&gt;</description>
         </item>
         <item>
         <title>JDBC</title>
-        <link>https://qyChiba.github.io/categories/jdbc/</link>
+        <link>https://lingyicode.github.io/categories/jdbc/</link>
         <pubDate>Mon, 25 Aug 2025 15:29:50 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/categories/jdbc/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/categories/jdbc/cover.jpg" alt="Featured image of post JDBC" /&gt;</description>
+        <guid>https://lingyicode.github.io/categories/jdbc/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/categories/jdbc/cover.jpg" alt="Featured image of post JDBC" /&gt;</description>
         </item>
         
     </channel>

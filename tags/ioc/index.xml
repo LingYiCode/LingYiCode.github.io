@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>IOC on Chiba</title>
-        <link>https://qyChiba.github.io/tags/ioc/</link>
-        <description>Recent content in IOC on Chiba</description>
+        <title>IOC on 凌奕</title>
+        <link>https://lingyicode.github.io/tags/ioc/</link>
+        <description>Recent content in IOC on 凌奕</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Chiba</copyright>
-        <lastBuildDate>Mon, 17 Nov 2025 23:49:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/ioc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>凌奕</copyright>
+        <lastBuildDate>Mon, 17 Nov 2025 23:49:00 +0800</lastBuildDate><atom:link href="https://lingyicode.github.io/tags/ioc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>第一个IOC</title>
-        <link>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</link>
+        <link>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</link>
         <pubDate>Mon, 17 Nov 2025 23:49:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg" alt="Featured image of post 第一个IOC" /&gt;&lt;h1 id=&#34;第一个ioc案例&#34;&gt;第一个IOC案例
+        <guid>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg" alt="Featured image of post 第一个IOC" /&gt;&lt;h1 id=&#34;第一个ioc案例&#34;&gt;第一个IOC案例
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;注：第一个IOC案例是Maven项目，项目结构如下：&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84.png&#34;
 	width=&#34;443&#34;
 	height=&#34;743&#34;
-	srcset=&#34;https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_6f4ba3d7e757aaa4.png 480w, https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_b260c291a232c824.png 1024w&#34;
+	srcset=&#34;https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_6f4ba3d7e757aaa4.png 480w, https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_b260c291a232c824.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IOC&#34;
@@ -57,8 +57,8 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookDao&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.qychiba.dao.impl.BookDaoImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookService&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.qychiba.service.impl.BookServiceImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookDao&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.凌奕.dao.impl.BookDaoImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookService&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.凌奕.service.impl.BookServiceImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;

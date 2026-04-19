@@ -4,16 +4,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第一个IOC">
 <title>第一个IOC</title>
 
-<link rel='canonical' href='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/'>
+<link rel='canonical' href='https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/'>
 
-<link rel="stylesheet" href="/scss/style.min.1ad7462a9b6d05e5136194151333a70aa32d4e922b5f3fd56af734ce9ac50e9e.css"><meta property='og:title' content="第一个IOC">
+<link rel="stylesheet" href="/scss/style.min.2eae019617538d4a4165e2c4a87f92887b06e79a6f9cf501331230f8f6d87f0b.css"><meta property='og:title' content="第一个IOC">
 <meta property='og:description' content="第一个IOC">
-<meta property='og:url' content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/'>
-<meta property='og:site_name' content='Chiba'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='IOC' /><meta property='article:published_time' content='2025-11-17T23:49:45&#43;08:00'/><meta property='article:modified_time' content='2025-11-17T23:49:00&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg' />
+<meta property='og:url' content='https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/'>
+<meta property='og:site_name' content='凌奕'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='IOC' /><meta property='article:published_time' content='2025-11-17T23:49:45&#43;08:00'/><meta property='article:modified_time' content='2025-11-17T23:49:00&#43;08:00'/><meta property='og:image' content='https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg' />
 <meta name="twitter:title" content="第一个IOC">
 <meta name="twitter:description" content="第一个IOC"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg' />
+    <meta name="twitter:image" content='https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <style>
@@ -108,7 +108,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Chiba</a></h1>
+            <h1 class="site-name"><a href="/">凌奕</a></h1>
             <h2 class="site-description" id="typewriter" data-text="黎明之前最黑暗"></h2>
         </div>
     </header><ol class="menu" id="main-menu">
@@ -387,7 +387,7 @@
 
 
             <span class="article-time--wordcount">
-                339 字
+                441 字
             </span>
         </div>
 
@@ -447,8 +447,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">&#34;bookDao&#34;</span> <span class="na">class=</span><span class="s">&#34;org.qychiba.dao.impl.BookDaoImpl&#34;</span><span class="nt">/&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">&#34;bookService&#34;</span> <span class="na">class=</span><span class="s">&#34;org.qychiba.service.impl.BookServiceImpl&#34;</span><span class="nt">/&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">&#34;bookDao&#34;</span> <span class="na">class=</span><span class="s">&#34;org.凌奕.dao.impl.BookDaoImpl&#34;</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">&#34;bookService&#34;</span> <span class="na">class=</span><span class="s">&#34;org.凌奕.service.impl.BookServiceImpl&#34;</span><span class="nt">/&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
@@ -579,7 +579,7 @@
         
             2025 - 
         
-        2026 Chiba
+        2026 凌奕
     </section>
     
     
@@ -612,7 +612,7 @@
             
                 
             
-            发布了 <strong>9</strong> 篇文章 | 共 <strong>8.8K</strong> 字
+            发布了 <strong>9</strong> 篇文章 | 共 <strong>9.1K</strong> 字
         </div>
         
         
@@ -623,7 +623,7 @@
     
     <section class="powerby">
         
-            Chiba <br/>
+            凌奕 <br/>
         
     </section>
 </footer>
@@ -783,108 +783,13 @@
     }());
 </script>
 
-<div id="aplayer"></div>
-
-<script>
-  
-  let aplayerLoaded = false;
-  let ap = null;
-
-  function initAPlayer() {
-    if (aplayerLoaded) return;
-    aplayerLoaded = true;
-
-    
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js';
-    script.onload = function() {
-      const musicDir = "https://qyChiba.github.io/" + 'music/';
-      const songs = [
-        '你离开的真相-高至豪',
-        '意外-薛之谦',
-        '唯一-邓紫棋',
-        'Love Story-Taylor Swift',
-        '青花-周传雄'
-      ];
-      
-      let audios = [];
-      songs.forEach((item) => {
-        const songInfo = item.split('-');
-        audios.push({
-          name: songInfo[0],
-          artist: songInfo[1],
-          url: musicDir + item + '/song.mp3',
-          cover: musicDir + item + '/cover.jpg',
-          lrc: musicDir + item + '/lyric.lrc'
-        });
-      });
-      
-      ap = new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: true,
-        listMaxHeight: 'px',
-        lrcType: 3,
-        preload: 'none', 
-        audio: audios
-      });
-
-      
-      restorePlayState();
-    };
-    document.head.appendChild(script);
-  }
-
-  
-  let userInteracted = false;
-  function delayedInit() {
-    if (!userInteracted) {
-      userInteracted = true;
-      initAPlayer();
-    }
-  }
-  
-  
-  ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event => {
-    document.addEventListener(event, delayedInit, { once: true, passive: true });
-  });
-  
-  
-  setTimeout(initAPlayer, 3000);
-
-  function restorePlayState() {
-    if (!ap) return;
-    const playInfo = JSON.parse(localStorage.getItem("playInfo"));
-    if (!playInfo) return;
-    
-    ap.list.switch(playInfo.index);
-    setTimeout(() => {
-      ap.seek(playInfo.currentTime);
-      if (!playInfo.paused) {
-        ap.play();
-      }
-    }, 500);
-  }
-  
-  window.addEventListener('beforeunload', () => {
-    if (ap && ap.audio) {
-      const playInfo = {
-        index: ap.list.index,
-        currentTime: ap.audio.currentTime,
-        paused: ap.audio.paused
-      };
-      localStorage.setItem("playInfo", JSON.stringify(playInfo));
-    }
-  });
-</script>
-
-
 ...
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js" 
         onerror="this.onerror=null;this.src='https://unpkg.com/pjax@0.2.8/pjax.min.js'"></script>
 
     
-    <script src=https://qyChiba.github.io/js/topbar.min.js></script>
+    <script src=https://lingyicode.github.io/js/topbar.min.js></script>
 
 
 <script>
@@ -1072,6 +977,7 @@
     console.log('Particles.js 加载失败，已跳过背景动效');
   }
 </script>
+
 
     </body>
 </html>

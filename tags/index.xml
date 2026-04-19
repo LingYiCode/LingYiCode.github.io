@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on Chiba</title>
-        <link>https://qyChiba.github.io/tags/</link>
-        <description>Recent content in Tags on Chiba</description>
+        <title>Tags on 凌奕</title>
+        <link>https://lingyicode.github.io/tags/</link>
+        <description>Recent content in Tags on 凌奕</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Chiba</copyright>
-        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>凌奕</copyright>
+        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://lingyicode.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SSM日志</title>
-        <link>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
+        <link>https://lingyicode.github.io/tags/ssm%E6%97%A5%E5%BF%97/</link>
         <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/ssm%E6%97%A5%E5%BF%97/</guid>
+        <guid>https://lingyicode.github.io/tags/ssm%E6%97%A5%E5%BF%97/</guid>
         <description></description>
         </item>
         <item>
         <title>IOC</title>
-        <link>https://qyChiba.github.io/tags/ioc/</link>
+        <link>https://lingyicode.github.io/tags/ioc/</link>
         <pubDate>Mon, 17 Nov 2025 23:49:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/ioc/</guid>
+        <guid>https://lingyicode.github.io/tags/ioc/</guid>
         <description></description>
         </item>
         <item>
         <title>DI</title>
-        <link>https://qyChiba.github.io/tags/di/</link>
+        <link>https://lingyicode.github.io/tags/di/</link>
         <pubDate>Mon, 17 Nov 2025 23:47:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/di/</guid>
+        <guid>https://lingyicode.github.io/tags/di/</guid>
         <description></description>
         </item>
         <item>
         <title>日期模拟</title>
-        <link>https://qyChiba.github.io/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/</link>
+        <link>https://lingyicode.github.io/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/</link>
         <pubDate>Mon, 01 Sep 2025 23:00:26 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/</guid>
+        <guid>https://lingyicode.github.io/tags/%E6%97%A5%E6%9C%9F%E6%A8%A1%E6%8B%9F/</guid>
         <description></description>
         </item>
         <item>
         <title>一维前缀和</title>
-        <link>https://qyChiba.github.io/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+        <link>https://lingyicode.github.io/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/</link>
         <pubDate>Sat, 30 Aug 2025 18:09:50 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
+        <guid>https://lingyicode.github.io/tags/%E4%B8%80%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
         <description></description>
         </item>
         <item>
         <title>一维差分</title>
-        <link>https://qyChiba.github.io/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/</link>
+        <link>https://lingyicode.github.io/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/</link>
         <pubDate>Thu, 28 Aug 2025 21:49:22 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/</guid>
+        <guid>https://lingyicode.github.io/tags/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/</guid>
         <description></description>
         </item>
         <item>
         <title>JDBC进阶</title>
-        <link>https://qyChiba.github.io/tags/jdbc%E8%BF%9B%E9%98%B6/</link>
+        <link>https://lingyicode.github.io/tags/jdbc%E8%BF%9B%E9%98%B6/</link>
         <pubDate>Mon, 25 Aug 2025 15:29:50 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/jdbc%E8%BF%9B%E9%98%B6/</guid>
+        <guid>https://lingyicode.github.io/tags/jdbc%E8%BF%9B%E9%98%B6/</guid>
         <description></description>
         </item>
         <item>
         <title>JDBC常见问题</title>
-        <link>https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
+        <link>https://lingyicode.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 25 Aug 2025 14:25:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
+        <guid>https://lingyicode.github.io/tags/jdbc%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid>
         <description></description>
         </item>
         <item>
         <title>JDBC搭建和连接</title>
-        <link>https://qyChiba.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/</link>
+        <link>https://lingyicode.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/</link>
         <pubDate>Sat, 23 Aug 2025 23:01:38 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/</guid>
+        <guid>https://lingyicode.github.io/tags/jdbc%E6%90%AD%E5%BB%BA%E5%92%8C%E8%BF%9E%E6%8E%A5/</guid>
         <description></description>
         </item>
         

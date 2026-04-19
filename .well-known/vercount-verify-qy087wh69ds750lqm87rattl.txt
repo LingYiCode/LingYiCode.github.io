@@ -1,1 +1,1 @@
-vercount-domain-verify=qychiba.github.io,qy087wh69ds750lqm87rattl
+vercount-domain-verify=lingyicode.github.io,qy087wh69ds750lqm87rattl

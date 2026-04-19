@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>SSM on Chiba</title>
-        <link>https://qyChiba.github.io/categories/ssm/</link>
-        <description>Recent content in SSM on Chiba</description>
+        <title>SSM on 凌奕</title>
+        <link>https://lingyicode.github.io/categories/ssm/</link>
+        <description>Recent content in SSM on 凌奕</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Chiba</copyright>
-        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://qyChiba.github.io/categories/ssm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>凌奕</copyright>
+        <lastBuildDate>Tue, 18 Nov 2025 07:57:00 +0800</lastBuildDate><atom:link href="https://lingyicode.github.io/categories/ssm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SSM日志</title>
-        <link>https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/</link>
+        <link>https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/</link>
         <pubDate>Tue, 18 Nov 2025 07:57:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/preview.jpg" alt="Featured image of post SSM日志" /&gt;&lt;h1 id=&#34;日志&#34;&gt;日志
+        <guid>https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/preview.jpg" alt="Featured image of post SSM日志" /&gt;&lt;h1 id=&#34;日志&#34;&gt;日志
 &lt;/h1&gt;&lt;h3 id=&#34;idea创建一个空的maven项目后运行编译报错java-不再支持源选项-7请使用-8-或更高版本&#34;&gt;idea创建一个空的Maven项目后运行编译报错：&lt;code&gt;java: 不再支持源选项 7。请使用 8 或更高版本。&lt;/code&gt;
 &lt;/h3&gt;&lt;p&gt;解决方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;方法1.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF.jpg&#34;
 	width=&#34;1201&#34;
 	height=&#34;907&#34;
-	srcset=&#34;https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_ea0e4da882d176b5.jpg 480w, https://qyChiba.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_6f12c9edab86c002.jpg 1024w&#34;
+	srcset=&#34;https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_ea0e4da882d176b5.jpg 480w, https://lingyicode.github.io/post/ssm%E6%97%A5%E5%BF%97/FF_hu_6f12c9edab86c002.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;解决方法&#34;
@@ -86,18 +86,18 @@
         </item>
         <item>
         <title>第一个IOC</title>
-        <link>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</link>
+        <link>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</link>
         <pubDate>Mon, 17 Nov 2025 23:49:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg" alt="Featured image of post 第一个IOC" /&gt;&lt;h1 id=&#34;第一个ioc案例&#34;&gt;第一个IOC案例
+        <guid>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/preview.jpg" alt="Featured image of post 第一个IOC" /&gt;&lt;h1 id=&#34;第一个ioc案例&#34;&gt;第一个IOC案例
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;注：第一个IOC案例是Maven项目，项目结构如下：&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84.png&#34;
 	width=&#34;443&#34;
 	height=&#34;743&#34;
-	srcset=&#34;https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_6f4ba3d7e757aaa4.png 480w, https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_b260c291a232c824.png 1024w&#34;
+	srcset=&#34;https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_6f4ba3d7e757aaa4.png 480w, https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAioc/IOC%E7%BB%93%E6%9E%84_hu_b260c291a232c824.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IOC&#34;
@@ -134,8 +134,8 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookDao&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.qychiba.dao.impl.BookDaoImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookService&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.qychiba.service.impl.BookServiceImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookDao&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.凌奕.dao.impl.BookDaoImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;bean&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;bookService&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;org.凌奕.service.impl.BookServiceImpl&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
@@ -167,11 +167,11 @@
         </item>
         <item>
         <title>第一个DI</title>
-        <link>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</link>
+        <link>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</link>
         <pubDate>Mon, 17 Nov 2025 23:47:45 +0800</pubDate>
         
-        <guid>https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</guid>
-        <description>&lt;img src="https://qyChiba.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview.jpg" alt="Featured image of post 第一个DI" /&gt;&lt;h1 id=&#34;第一个di&#34;&gt;第一个DI
+        <guid>https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/</guid>
+        <description>&lt;img src="https://lingyicode.github.io/post/%E7%AC%AC%E4%B8%80%E4%B8%AAdi/preview.jpg" alt="Featured image of post 第一个DI" /&gt;&lt;h1 id=&#34;第一个di&#34;&gt;第一个DI
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;1.基于IOC管理Bean&lt;/p&gt;
 &lt;p&gt;2.Service中使用new创建的对象不能保留。&lt;/p&gt;

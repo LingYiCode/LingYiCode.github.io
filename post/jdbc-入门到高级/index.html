@@ -4,16 +4,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="JDBC-入门 一、JDBC搭建： 1.准备数据库\n2.下载连接驱动jar包。\n3.创建Java项目，在项目下创建lib文件夹内，将下载完成的jar包复制到文件夹里面。\n4.选中lib文件夹右键&ndash;&gt;Add as Library(添加为库)，与项目集成。\n">
 <title>JDBC-入门到高级</title>
 
-<link rel='canonical' href='https://qyChiba.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/'>
+<link rel='canonical' href='https://lingyicode.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/'>
 
-<link rel="stylesheet" href="/scss/style.min.1ad7462a9b6d05e5136194151333a70aa32d4e922b5f3fd56af734ce9ac50e9e.css"><meta property='og:title' content="JDBC-入门到高级">
+<link rel="stylesheet" href="/scss/style.min.2eae019617538d4a4165e2c4a87f92887b06e79a6f9cf501331230f8f6d87f0b.css"><meta property='og:title' content="JDBC-入门到高级">
 <meta property='og:description' content="JDBC-入门 一、JDBC搭建： 1.准备数据库\n2.下载连接驱动jar包。\n3.创建Java项目，在项目下创建lib文件夹内，将下载完成的jar包复制到文件夹里面。\n4.选中lib文件夹右键&ndash;&gt;Add as Library(添加为库)，与项目集成。\n">
-<meta property='og:url' content='https://qyChiba.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/'>
-<meta property='og:site_name' content='Chiba'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JDBC搭建和连接' /><meta property='article:published_time' content='2025-08-23T23:01:38&#43;08:00'/><meta property='article:modified_time' content='2025-08-23T23:01:38&#43;08:00'/><meta property='og:image' content='https://qyChiba.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.png' />
+<meta property='og:url' content='https://lingyicode.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/'>
+<meta property='og:site_name' content='凌奕'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JDBC搭建和连接' /><meta property='article:published_time' content='2025-08-23T23:01:38&#43;08:00'/><meta property='article:modified_time' content='2025-08-23T23:01:38&#43;08:00'/><meta property='og:image' content='https://lingyicode.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.png' />
 <meta name="twitter:title" content="JDBC-入门到高级">
 <meta name="twitter:description" content="JDBC-入门 一、JDBC搭建： 1.准备数据库\n2.下载连接驱动jar包。\n3.创建Java项目，在项目下创建lib文件夹内，将下载完成的jar包复制到文件夹里面。\n4.选中lib文件夹右键&ndash;&gt;Add as Library(添加为库)，与项目集成。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://qyChiba.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.png' />
+    <meta name="twitter:image" content='https://lingyicode.github.io/post/jdbc-%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%BA%A7/MeiGuiHua.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <style>
@@ -108,7 +108,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Chiba</a></h1>
+            <h1 class="site-name"><a href="/">凌奕</a></h1>
             <h2 class="site-description" id="typewriter" data-text="黎明之前最黑暗"></h2>
         </div>
     </header><ol class="menu" id="main-menu">
@@ -399,7 +399,7 @@
 
 
             <span class="article-time--wordcount">
-                3958 字
+                4046 字
             </span>
         </div>
 
@@ -468,7 +468,7 @@
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
@@ -630,7 +630,7 @@
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JAva" data-lang="JAva"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-JAva" data-lang="JAva"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.*</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -737,7 +737,7 @@
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.Connection</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.sql.DriverManager</span><span class="p">;</span><span class="w">
@@ -805,7 +805,7 @@
 </span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -880,7 +880,7 @@
 </span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -952,7 +952,7 @@
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -1018,7 +1018,7 @@
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -1085,7 +1085,7 @@
 </span><span class="lnt">32
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.Chiba.base</span><span class="p">;</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.凌奕.base</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -1219,7 +1219,7 @@
         
             2025 - 
         
-        2026 Chiba
+        2026 凌奕
     </section>
     
     
@@ -1252,7 +1252,7 @@
             
                 
             
-            发布了 <strong>9</strong> 篇文章 | 共 <strong>8.8K</strong> 字
+            发布了 <strong>9</strong> 篇文章 | 共 <strong>9.1K</strong> 字
         </div>
         
         
@@ -1263,7 +1263,7 @@
     
     <section class="powerby">
         
-            Chiba <br/>
+            凌奕 <br/>
         
     </section>
 </footer>
@@ -1423,108 +1423,13 @@
     }());
 </script>
 
-<div id="aplayer"></div>
-
-<script>
-  
-  let aplayerLoaded = false;
-  let ap = null;
-
-  function initAPlayer() {
-    if (aplayerLoaded) return;
-    aplayerLoaded = true;
-
-    
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js';
-    script.onload = function() {
-      const musicDir = "https://qyChiba.github.io/" + 'music/';
-      const songs = [
-        '你离开的真相-高至豪',
-        '意外-薛之谦',
-        '唯一-邓紫棋',
-        'Love Story-Taylor Swift',
-        '青花-周传雄'
-      ];
-      
-      let audios = [];
-      songs.forEach((item) => {
-        const songInfo = item.split('-');
-        audios.push({
-          name: songInfo[0],
-          artist: songInfo[1],
-          url: musicDir + item + '/song.mp3',
-          cover: musicDir + item + '/cover.jpg',
-          lrc: musicDir + item + '/lyric.lrc'
-        });
-      });
-      
-      ap = new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: true,
-        listMaxHeight: 'px',
-        lrcType: 3,
-        preload: 'none', 
-        audio: audios
-      });
-
-      
-      restorePlayState();
-    };
-    document.head.appendChild(script);
-  }
-
-  
-  let userInteracted = false;
-  function delayedInit() {
-    if (!userInteracted) {
-      userInteracted = true;
-      initAPlayer();
-    }
-  }
-  
-  
-  ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event => {
-    document.addEventListener(event, delayedInit, { once: true, passive: true });
-  });
-  
-  
-  setTimeout(initAPlayer, 3000);
-
-  function restorePlayState() {
-    if (!ap) return;
-    const playInfo = JSON.parse(localStorage.getItem("playInfo"));
-    if (!playInfo) return;
-    
-    ap.list.switch(playInfo.index);
-    setTimeout(() => {
-      ap.seek(playInfo.currentTime);
-      if (!playInfo.paused) {
-        ap.play();
-      }
-    }, 500);
-  }
-  
-  window.addEventListener('beforeunload', () => {
-    if (ap && ap.audio) {
-      const playInfo = {
-        index: ap.list.index,
-        currentTime: ap.audio.currentTime,
-        paused: ap.audio.paused
-      };
-      localStorage.setItem("playInfo", JSON.stringify(playInfo));
-    }
-  });
-</script>
-
-
 ...
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js" 
         onerror="this.onerror=null;this.src='https://unpkg.com/pjax@0.2.8/pjax.min.js'"></script>
 
     
-    <script src=https://qyChiba.github.io/js/topbar.min.js></script>
+    <script src=https://lingyicode.github.io/js/topbar.min.js></script>
 
 
 <script>
@@ -1712,6 +1617,7 @@
     console.log('Particles.js 加载失败，已跳过背景动效');
   }
 </script>
+
 
     </body>
 </html>
